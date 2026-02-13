@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events & Calendar — Park Cities Area Democrats</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="https://images.squarespace-cdn.com/content/v1/5cb0ed908c8ac500019a42f0/cd06691e-f7f8-478a-8ac4-ad0f2c70738d/PCAD+Logo.jpg" type="image/jpeg">
+</head>
+<body class="page-events">
+
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- Alert Bar -->
+  <div class="alert-bar" id="alertBar" data-alert-id="primary-2026-03">
+    <div class="container alert-bar__inner">
+      <span class="alert-bar__icon">&#9888;&#65039;</span>
+      <p class="alert-bar__text">
+        <strong>Texas Primary: March 3, 2026</strong> &mdash;
+        Early voting starts Feb 17!
+        <a href="take-action.html#election" class="alert-bar__link">Make your plan to vote &rarr;</a>
+      </p>
+      <button class="alert-bar__close" aria-label="Dismiss alert">&times;</button>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header" id="siteHeader">
+    <div class="container header__inner">
+      <a href="index.html" class="header__logo">
+        <img src="https://images.squarespace-cdn.com/content/v1/5cb0ed908c8ac500019a42f0/1742672473790-AD5OIG8ZAACBYYTD5UG5/Wide+Logo.png?format=500w" alt="PCA Dems - Park Cities Area Democrats" class="header__logo-img">
+      </a>
+      <nav class="header__nav" id="mainNav">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="events.html" class="nav-link">Events &amp; Calendar</a></li>
+          <li><a href="take-action.html" class="nav-link">Take Action</a></li>
+          <li><a href="resources.html" class="nav-link">Resources</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+        </ul>
+      </nav>
+      <a href="take-action.html" class="btn btn--primary btn--sm header__cta">Join Us</a>
+      <button class="header__hamburger" id="hamburgerBtn" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Nav Overlay -->
+  <div class="mobile-nav__overlay" id="mobileNavOverlay"></div>
+  <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+    <button class="mobile-nav__close" id="mobileNavClose" aria-label="Close menu">&times;</button>
+    <ul class="mobile-nav__list">
+      <li><a href="index.html" class="mobile-nav__link">Home</a></li>
+      <li><a href="events.html" class="mobile-nav__link">Events &amp; Calendar</a></li>
+      <li><a href="take-action.html" class="mobile-nav__link">Take Action</a></li>
+      <li><a href="resources.html" class="mobile-nav__link">Resources</a></li>
+      <li><a href="about.html" class="mobile-nav__link">About</a></li>
+    </ul>
+    <a href="take-action.html" class="btn btn--primary mobile-nav__cta">Join Us</a>
+  </nav>
+
+  <main id="main">
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+      <div class="container">
+        <div class="page-hero__content">
+          <h1>Events &amp; Calendar</h1>
+          <p>Stay connected with our meetings, community events, and partner activities.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Event -->
+    <section class="section">
+      <div class="container">
+        <div class="card card--featured">
+          <img class="card__image" src="https://images.squarespace-cdn.com/content/v1/5cb0ed908c8ac500019a42f0/6a5e9ba7-9126-4efd-b2b8-086b7201fd65/GLOW-250227-183805-Alyssa.jpg?format=1500w" alt="Meet the Candidates community event" loading="lazy">
+          <div class="card__body">
+            <span class="card__tag card__tag--meeting">Featured Event</span>
+            <h2 class="card__title">Meet the Candidates for Congress and Texas House</h2>
+            <div class="card__meta">
+              <span>Sunday, February 15, 2026</span>
+            </div>
+            <div class="card__meta">
+              <span>4:00 PM &ndash; 6:00 PM</span>
+            </div>
+            <div class="card__meta">
+              <span>Location provided upon RSVP</span>
+            </div>
+            <p class="card__text" style="margin-top: var(--space-4);">The district lines are official and so is our candidate pool. Let's send Beth Van Duyne (CD 24) and Morgan Meyer (HD 108) home! Meet the candidates running to do just that.</p>
+            <a href="#" class="btn btn--primary">RSVP Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Upcoming Events -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="section__header">
+          <h2>Upcoming Events</h2>
+        </div>
+        <div class="grid grid--3">
+          <!-- Event 1 -->
+          <div class="event-card">
+            <div class="date-badge">
+              <span class="date-badge__month">Feb</span>
+              <span class="date-badge__day">15</span>
+            </div>
+            <div class="event-card__info">
+              <span class="card__tag card__tag--meeting">Meeting</span>
+              <h3 class="event-card__title">Meet the Candidates for Congress &amp; Texas House</h3>
+              <p class="event-card__detail">Sunday, 4:00 PM &ndash; 6:00 PM</p>
+              <p class="event-card__detail">Location provided upon RSVP</p>
+            </div>
+          </div>
+          <!-- Event 2 -->
+          <div class="event-card">
+            <div class="date-badge">
+              <span class="date-badge__month">Feb</span>
+              <span class="date-badge__day">17</span>
+            </div>
+            <div class="event-card__info">
+              <span class="card__tag card__tag--urgent">Important</span>
+              <h3 class="event-card__title">Early Voting Begins &mdash; Texas Democratic Primary</h3>
+              <p class="event-card__detail">Tuesday, Feb 17 &ndash; Feb 28</p>
+              <p class="event-card__detail">Find your polling location</p>
+            </div>
+          </div>
+          <!-- Event 3 -->
+          <div class="event-card">
+            <div class="date-badge">
+              <span class="date-badge__month">Feb</span>
+              <span class="date-badge__day">20</span>
+            </div>
+            <div class="event-card__info">
+              <span class="card__tag card__tag--partner">Partner Event</span>
+              <h3 class="event-card__title">DCDP Annual Fish Fry at Sokol Hall</h3>
+              <p class="event-card__detail">Friday, 6:00 PM &ndash; 8:00 PM</p>
+              <p class="event-card__detail">Sokol Hall, 7448 Greenville Ave</p>
+            </div>
+          </div>
+          <!-- Event 4 -->
+          <div class="event-card">
+            <div class="date-badge">
+              <span class="date-badge__month">Feb</span>
+              <span class="date-badge__day">22</span>
+            </div>
+            <div class="event-card__info">
+              <span class="card__tag card__tag--action">Action</span>
+              <h3 class="event-card__title">Saturday Protest at Mockingbird &amp; Abrams</h3>
+              <p class="event-card__detail">Saturday, 12:00 PM &ndash; 1:00 PM</p>
+              <p class="event-card__detail">Mockingbird &amp; Abrams intersection</p>
+            </div>
+          </div>
+          <!-- Event 5 -->
+          <div class="event-card">
+            <div class="date-badge">
+              <span class="date-badge__month">Mar</span>
+              <span class="date-badge__day">1</span>
+            </div>
+            <div class="event-card__info">
+              <span class="card__tag card__tag--action">Action</span>
+              <h3 class="event-card__title">Saturday Protest at Mockingbird &amp; Abrams</h3>
+              <p class="event-card__detail">Saturday, 12:00 PM &ndash; 1:00 PM</p>
+              <p class="event-card__detail">Mockingbird &amp; Abrams intersection</p>
+            </div>
+          </div>
+          <!-- Event 6 -->
+          <div class="event-card">
+            <div class="date-badge">
+              <span class="date-badge__month">Mar</span>
+              <span class="date-badge__day">3</span>
+            </div>
+            <div class="event-card__info">
+              <span class="card__tag card__tag--urgent">Important</span>
+              <h3 class="event-card__title">Election Day &mdash; Texas Democratic Primary</h3>
+              <p class="event-card__detail">Tuesday, 7:00 AM &ndash; 7:00 PM</p>
+              <p class="event-card__detail">Vote at your assigned polling location</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Calendar Section A: PCA Dems Events -->
+    <section class="section">
+      <div class="container">
+        <div class="section__header">
+          <h2>PCA Dems Events</h2>
+          <p class="section-subtitle">Our regular meetings and social gatherings &mdash; open to all Democrats in the area.</p>
+        </div>
+        <div class="grid grid--2">
+          <div class="event-card">
+            <div class="date-badge">
+              <span class="date-badge__month">Every</span>
+              <span class="date-badge__day" style="font-size: var(--font-size-lg);">3rd</span>
+            </div>
+            <div class="event-card__info">
+              <span class="card__tag card__tag--meeting">Meeting</span>
+              <h3 class="event-card__title">Monthly Meeting</h3>
+              <p class="event-card__detail">Third week of each month</p>
+              <p class="event-card__detail">Location provided upon RSVP</p>
+              <p class="event-card__detail" style="margin-top: var(--space-2); font-style: italic;">Guest speakers, election updates, and community organizing</p>
+            </div>
+          </div>
+          <div class="event-card">
+            <div class="date-badge" style="background: var(--color-accent-blue);">
+              <span class="date-badge__month">Every</span>
+              <span class="date-badge__day" style="font-size: var(--font-size-lg);">2wk</span>
+            </div>
+            <div class="event-card__info">
+              <span class="card__tag card__tag--meeting">Social</span>
+              <h3 class="event-card__title">Like Hearts Social Gatherings</h3>
+              <p class="event-card__detail">Every other Thursday evening</p>
+              <p class="event-card__detail">Various local venues</p>
+              <p class="event-card__detail" style="margin-top: var(--space-2); font-style: italic;">Informal get-togethers to connect with fellow Democrats</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Calendar Section B: Action Calendar -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="section__header">
+          <h2>Action Calendar</h2>
+          <p class="section-subtitle">Protests, phone banks, and direct action opportunities.</p>
+        </div>
+        <div class="grid grid--2">
+          <div class="event-card">
+            <div class="date-badge" style="background: var(--color-accent-red);">
+              <span class="date-badge__month">Every</span>
+              <span class="date-badge__day" style="font-size: var(--font-size-lg);">Sat</span>
+            </div>
+            <div class="event-card__info">
+              <span class="card__tag card__tag--action">Weekly Action</span>
+              <h3 class="event-card__title">Saturday Protests</h3>
+              <p class="event-card__detail">Every Saturday, 12:00 PM &ndash; 1:00 PM</p>
+              <p class="event-card__detail">Mockingbird &amp; Abrams intersection</p>
+              <p class="event-card__detail" style="margin-top: var(--space-2); font-style: italic;">Show up, be seen, make your voice heard</p>
+            </div>
+          </div>
+          <div class="event-card">
+            <div class="date-badge" style="background: var(--color-accent-red-dark);">
+              <span class="date-badge__month">On</span>
+              <span class="date-badge__day" style="font-size: var(--font-size-lg);">Call</span>
+            </div>
+            <div class="event-card__info">
+              <span class="card__tag card__tag--action">Action Team</span>
+              <h3 class="event-card__title">Quick Action Team Activities</h3>
+              <p class="event-card__detail">Rapid-response actions as needed</p>
+              <p class="event-card__detail">Phone banks, letter writing, canvassing</p>
+              <p class="event-card__detail" style="margin-top: var(--space-2); font-style: italic;">Sign up to be notified when quick actions are organized</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Calendar Section C: Partner Events -->
+    <section class="section">
+      <div class="container">
+        <div class="section__header">
+          <h2>Partner Events</h2>
+          <p class="section-subtitle">Events from allied organizations across the Dallas area.</p>
+        </div>
+        <div class="grid grid--2">
+          <div class="event-card">
+            <div class="date-badge">
+              <span class="date-badge__month">Feb</span>
+              <span class="date-badge__day">20</span>
+            </div>
+            <div class="event-card__info">
+              <span class="card__tag card__tag--partner">DCDP</span>
+              <h3 class="event-card__title">DCDP Annual Fish Fry</h3>
+              <p class="event-card__detail">Friday, 6:00 PM &ndash; 8:00 PM</p>
+              <p class="event-card__detail">Sokol Hall, 7448 Greenville Ave</p>
+            </div>
+          </div>
+          <div class="event-card">
+            <div class="date-badge" style="background: var(--color-gray-dark);">
+              <span class="date-badge__month">Various</span>
+              <span class="date-badge__day" style="font-size: var(--font-size-lg);">TBD</span>
+            </div>
+            <div class="event-card__info">
+              <span class="card__tag card__tag--partner">Partner Event</span>
+              <h3 class="event-card__title">Partner Organization Events</h3>
+              <p class="event-card__detail">Events from Funky East Dallas Democrats, NDTDW, and more</p>
+              <p class="event-card__detail" style="margin-top: var(--space-2); font-style: italic;">Check back regularly for updates from our partner organizations</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Partner Organizations -->
+    <section class="section section--navy">
+      <div class="container">
+        <div class="section__header">
+          <h2>Partner Organizations</h2>
+          <p class="section-subtitle" style="color: rgba(255,255,255,0.8);">We proudly work alongside these allied Democratic organizations in the Dallas area.</p>
+        </div>
+        <div class="grid grid--3" style="gap: var(--space-4);">
+          <div class="event-card" style="border: none; text-align: center; flex-direction: column; align-items: center;">
+            <div class="event-card__info" style="text-align: center;">
+              <h3 class="event-card__title" style="color: var(--color-navy-dark);">Dallas County Democratic Party</h3>
+              <p class="event-card__detail">DCDP</p>
+            </div>
+          </div>
+          <div class="event-card" style="border: none; text-align: center; flex-direction: column; align-items: center;">
+            <div class="event-card__info" style="text-align: center;">
+              <h3 class="event-card__title" style="color: var(--color-navy-dark);">Funky East Dallas Democrats</h3>
+              <p class="event-card__detail">Community organizing in East Dallas</p>
+            </div>
+          </div>
+          <div class="event-card" style="border: none; text-align: center; flex-direction: column; align-items: center;">
+            <div class="event-card__info" style="text-align: center;">
+              <h3 class="event-card__title" style="color: var(--color-navy-dark);">North Dallas Texas Democratic Women</h3>
+              <p class="event-card__detail">NDTDW</p>
+            </div>
+          </div>
+          <div class="event-card" style="border: none; text-align: center; flex-direction: column; align-items: center;">
+            <div class="event-card__info" style="text-align: center;">
+              <h3 class="event-card__title" style="color: var(--color-navy-dark);">Women of Dallas United for Action</h3>
+              <p class="event-card__detail">Advocacy and community engagement</p>
+            </div>
+          </div>
+          <div class="event-card" style="border: none; text-align: center; flex-direction: column; align-items: center;">
+            <div class="event-card__info" style="text-align: center;">
+              <h3 class="event-card__title" style="color: var(--color-navy-dark);">Texas Majority PAC</h3>
+              <p class="event-card__detail">Building a Democratic majority in Texas</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <!-- Brand + Signup -->
+        <div class="footer__col">
+          <img src="https://images.squarespace-cdn.com/content/v1/5cb0ed908c8ac500019a42f0/cd06691e-f7f8-478a-8ac4-ad0f2c70738d/PCAD+Logo.jpg?format=300w" alt="PCA Dems" class="footer__logo">
+          <p class="footer__tagline">Empowering progressive voters in the Park Cities area and beyond.</p>
+          <form class="footer__signup">
+            <label for="footerEmail" class="sr-only">Email address</label>
+            <input type="email" id="footerEmail" placeholder="Your email" class="footer__input">
+            <button type="submit" class="btn btn--primary btn--sm">Subscribe</button>
+          </form>
+        </div>
+        <!-- Quick Links -->
+        <div class="footer__col">
+          <h4 class="footer__heading">Quick Links</h4>
+          <ul class="footer__links">
+            <li><a href="events.html">Upcoming Events</a></li>
+            <li><a href="take-action.html">Take Action</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="about.html">About Us</a></li>
+          </ul>
+        </div>
+        <!-- Get Involved -->
+        <div class="footer__col">
+          <h4 class="footer__heading">Get Involved</h4>
+          <ul class="footer__links">
+            <li><a href="take-action.html">Join PCA Dems</a></li>
+            <li><a href="take-action.html#precinct">Find Your Precinct Chair</a></li>
+            <li><a href="take-action.html">Volunteer</a></li>
+            <li><a href="resources.html">Newsletter Archive</a></li>
+          </ul>
+        </div>
+        <!-- Contact -->
+        <div class="footer__col">
+          <h4 class="footer__heading">Contact</h4>
+          <ul class="footer__links">
+            <li><a href="mailto:info@PCADems.com">info@PCADems.com</a></li>
+          </ul>
+          <div class="footer__social">
+            <a href="https://www.facebook.com/pcdwa" target="_blank" rel="noopener noreferrer" aria-label="Facebook">f</a>
+          </div>
+          <p class="footer__address">Park Cities Area, Dallas, TX</p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Park Cities Area Democrats. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
